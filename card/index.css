@@ -1,0 +1,284 @@
+.websiteBody{
+  margin: 0;
+}.Page{
+  display:block;
+  margin:auto;
+  width:100%;
+  height:auto;
+  pointer-events:auto;
+}
+.Page-outer{
+  pointer-events:none;
+  z-index:1;
+}
+.Frame{
+  position:relative;
+  z-index:2;
+  pointer-events:none;
+  width:100%;
+  margin-left:0;
+  height:216px;
+  min-width:200px;
+  max-width:338px;
+  margin:auto;
+  background-color:rgba(255, 255, 255, 1);
+  overflow:hidden;
+}
+.Frame-outer{
+  pointer-events:none;
+  z-index:2;
+}
+.Frame-2{
+  position:relative;
+  z-index:3;
+  pointer-events:none;
+  margin-left:7px;
+  width:323px;
+  min-width:323px;
+  height:202px;
+  margin-top:7px;
+  margin-bottom:7px;
+  min-height:202px;
+}
+.Frame-2-outer{
+  pointer-events:none;
+  z-index:3;
+  position:relative;
+  display:flex;
+}
+.Rectangle-1{
+  position:relative;
+  z-index:4;
+  pointer-events:none;
+  margin-left:0px;
+  width:323px;
+  min-width:323px;
+  height:202px;
+  margin-top:0px;
+  margin-bottom:0px;
+  min-height:202px;
+  background-color:rgba(30, 40, 105, 1);
+  border:6px solid rgba(30, 40, 105, 1);
+}
+.Rectangle-1-outer{
+  pointer-events:none;
+  z-index:4;
+  position:relative;
+  display:flex;
+}
+.Lippukunta-{
+  position:relative;
+  z-index:7;
+  pointer-events:none;
+  margin-left:129px;
+  width:65px;
+  min-width:65px;
+  margin-top:-193px;
+  margin-bottom:179px;
+  min-height:14px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Barlow;
+  font-weight:700;
+  font-size:12px;
+  line-height:14.44444465637207px;
+}
+.Lippukunta--outer{
+  pointer-events:none;
+  z-index:7;
+  position:relative;
+  display:flex;
+}
+.Lippukunta{
+  position:relative;
+  z-index:5;
+  pointer-events:none;
+  margin-left:111px;
+  width:101px;
+  min-width:101px;
+  margin-top:-181px;
+  margin-bottom:157px;
+  min-height:24px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(248, 234, 72, 1);
+  font-style:normal;
+  font-family:Barlow;
+  font-weight:700;
+  font-size:20px;
+  line-height:24.444446563720703px;
+}
+.Lippukunta-outer{
+  pointer-events:none;
+  z-index:5;
+  position:relative;
+  display:flex;
+}
+.Leirilippukunta-{
+  position:relative;
+  z-index:8;
+  pointer-events:none;
+  margin-left:118px;
+  width:86px;
+  min-width:86px;
+  margin-top:-145px;
+  margin-bottom:131px;
+  min-height:14px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Barlow;
+  font-weight:700;
+  font-size:12px;
+  line-height:14.44444465637207px;
+}
+.Leirilippukunta--outer{
+  pointer-events:none;
+  z-index:8;
+  position:relative;
+  display:flex;
+}
+.Leirilippukunta{
+  position:relative;
+  z-index:6;
+  pointer-events:none;
+  margin-left:94px;
+  width:135px;
+  min-width:135px;
+  margin-top:-133px;
+  margin-bottom:109px;
+  min-height:24px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(248, 234, 72, 1);
+  font-style:normal;
+  font-family:Barlow;
+  font-weight:700;
+  font-size:20px;
+  line-height:24.444446563720703px;
+}
+.Leirilippukunta-outer{
+  pointer-events:none;
+  z-index:6;
+  position:relative;
+  display:flex;
+}
+.Kyl--{
+  position:relative;
+  z-index:12;
+  pointer-events:none;
+  margin-left:218px;
+  width:45px;
+  min-width:45px;
+  margin-top:-86px;
+  margin-bottom:62px;
+  min-height:24px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Barlow;
+  font-weight:700;
+  font-size:20px;
+  line-height:24.444446563720703px;
+}
+.Kyl---outer{
+  pointer-events:none;
+  z-index:12;
+  position:relative;
+  display:flex;
+}
+.Alaleiri-{
+  position:relative;
+  z-index:11;
+  pointer-events:none;
+  margin-left:63px;
+  width:70px;
+  min-width:70px;
+  margin-top:-86px;
+  margin-bottom:62px;
+  min-height:24px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Barlow;
+  font-weight:700;
+  font-size:20px;
+  line-height:24.444446563720703px;
+}
+.Alaleiri--outer{
+  pointer-events:none;
+  z-index:11;
+  position:relative;
+  display:flex;
+}
+.q110{
+  position:relative;
+  z-index:10;
+  pointer-events:none;
+  margin-left:227px;
+  width:26px;
+  min-width:26px;
+  margin-top:-57px;
+  margin-bottom:33px;
+  min-height:24px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(248, 234, 72, 1);
+  font-style:normal;
+  font-family:Barlow;
+  font-weight:700;
+  font-size:20px;
+  line-height:24.444446563720703px;
+}
+.q110-outer{
+  pointer-events:none;
+  z-index:10;
+  position:relative;
+  display:flex;
+}
+.q100-S-de{
+  position:relative;
+  z-index:9;
+  pointer-events:none;
+  margin-left:59px;
+  width:79px;
+  min-width:79px;
+  margin-top:-57px;
+  margin-bottom:33px;
+  min-height:24px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(248, 234, 72, 1);
+  font-style:normal;
+  font-family:Barlow;
+  font-weight:700;
+  font-size:20px;
+  line-height:24.444446563720703px;
+}
+.q100-S-de-outer{
+  pointer-events:none;
+  z-index:9;
+  position:relative;
+  display:flex;
+}
